@@ -1,3 +1,4 @@
+/* This CSS Page is built to flow in the same structure as the index */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -21,7 +22,8 @@
     color: #d9dcd6;
 }
 
-.header div {
+/* Changed div to nav */
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -29,11 +31,11 @@
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -42,6 +44,7 @@ body {
     background-color: #d9dcd6;
 }
 /* Front Page Picture */
+/* Changed from hero to picture name */
 .digital-marketing-meeting {
     height: 800px;
     width: 100%;
