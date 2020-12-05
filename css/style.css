@@ -58,6 +58,7 @@ body {
     background-position: center;
 }
 /* Content Blocks */
+/* Content H2 font size changed */
 .content {
     width: 75%;
     display: inline-block;
@@ -78,7 +79,7 @@ body {
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 24px;
 }
 
 .online-reputation-management {
@@ -96,7 +97,7 @@ body {
 
 .online-reputation-management h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 24px;
 }
 
 .social-media-marketing {
@@ -114,7 +115,7 @@ body {
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 24px;
 }
 
 .float-left {
@@ -188,6 +189,7 @@ body {
 }
 
 /* Copyright and Farewell*/
+
 .footer {
     padding: 30px;
     clear: both;
@@ -200,11 +202,18 @@ body {
 }
 
 /* General Attributes and Paragraphs */
+/* Added line height */
+/* Increased font size */
+/* Added letter spacing */
+
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
 p {
-    font-size: 16px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
 }
