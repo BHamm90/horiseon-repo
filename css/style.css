@@ -9,7 +9,7 @@
 /* Added floats to header and adjusted width */
 .header {
     float: left;
-    width: 100%;
+    width: 1900px;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -28,11 +28,12 @@
 
 /* Changed div to nav */
 .header nav {
-    padding-top: 15px;
+    justify-content: end;
+    padding-top: 16px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .header nav ul {
@@ -51,7 +52,7 @@ body {
 /* Changed from hero to picture name */
 .digital-marketing-meeting {
     height: 800px;
-    width: 100%;
+    width: 1900px;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
@@ -60,19 +61,23 @@ body {
 /* Content Blocks */
 /* Content H2 font size changed */
 .content {
+    max-width: 1490px;
     width: 75%;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 0px;
+    max-height: 1100px;
 
-}.search-engine-optimization {
-    margin-bottom: 20px;
+}
+.search-engine-optimization {
+    margin-bottom: 25px;
     padding: 50px;
-    height: 300px;
+    height: 350px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    width: 1490px;
+    max-width: 1490px;
 }
-
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -83,12 +88,13 @@ body {
 }
 
 .online-reputation-management {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     padding: 50px;
-    height: 300px;
+    height: 350px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    width: 1490px;
 }
 
 .online-reputation-management img {
@@ -103,10 +109,11 @@ body {
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: 350px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    width: 1490px;
 }
 
 .social-media-marketing img {
@@ -130,14 +137,16 @@ body {
 
 /* Benifits on Right Side Bar*/
 .benefits {
-    margin-right: 20px;
+    max-width: 390px;
+    margin-right: 0px;
     padding: 20px;
     clear: both;
     float: right;
-    width: 20%;
-    height: 100%;
+    width: 390px;
+    height: 1100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    max-height: 1100px;
 }
 
 .benefit-lead {
